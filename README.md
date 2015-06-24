@@ -5,10 +5,10 @@ the exception of the course admin page, which scrapes the information from the U
 scrapes the course information from can be a bit slow. 
 
 ##Users
-1. Admin User
-* Username: Globe
-* Password: GreatPass
+###Admin User
+**Username**: Globe
+**Password**: GreatPass
 
-2. Applicant User
-* Username: Roddy
-* Password: Lemur
+###Applicant User
+**Username**: Roddy
+**Password**: Lemur
