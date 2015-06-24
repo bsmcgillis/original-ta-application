@@ -1,0 +1,293 @@
+/*
+* Author: Blake McGillis
+* Date: March 21, 2015
+* Phase: 7
+*
+* Main Stylesheet
+* Contains general styles used throughout all pages, but is more specifically tailored to the
+* pages found above the Project files.
+*
+*/
+
+/*General style classes*/
+.center
+{
+    text-align:center;
+}
+
+.italics
+{
+    font-style: italic;  
+}
+
+.bold
+{
+    font-weight: bold;  
+}
+
+.green
+{
+    color: green;
+}
+
+.red
+{
+    color: red;
+}
+
+.fancyGreen
+{
+    text-shadow: 1px 1px 5px black;
+    color: green;
+}
+
+.fancyYellow
+{
+    text-shadow: 1px 1px 5px black;
+    color: yellow;
+}
+
+.whiteBox
+{
+    border: 1px solid white;
+}
+
+.inBlock
+{
+    display: inline-block;
+}
+
+.block
+{
+    display: block;
+}
+
+.dispNone
+{
+    display: none;
+}
+
+.hidden
+{
+    visibility: hidden;
+}
+
+.bigFont
+{
+    font-size: 200%;
+}
+
+.somePadding
+{
+    padding: 5px;
+}
+
+
+/*Styles for main sections of pages*/
+body
+{
+    background: #E0E0E0;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+header
+{	
+	text-align: center;
+    background-color: #312110;
+    width: 100%;
+    box-shadow: 0px 3px 10px #0C0C28;
+}
+
+#bottomSpacer
+{
+    height: 500px;
+}
+
+footer
+{
+    height: 75px;
+    background-color: #312110;
+    width: 100%;
+    box-shadow: 0px -3px 10px #0C0C28;
+    position: fixed;
+    bottom: 0px;
+}
+
+#contentWrapper
+{
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0px 50px 0px 50px;
+}
+
+#headingDiv
+{
+    text-align: center;
+}
+
+/*Text styling for various elements*/
+#subHeading1
+{
+	margin: 10px 10px;
+	padding-top: 10px;
+	color: #FEFEF2;
+	font-size: 225%;
+	text-shadow: 1px 1px 3px #424242;
+}
+
+#subHeading2
+{
+	margin: 10px 10px;
+	color: #FEFEF2;
+	font-size: 250%;
+	text-shadow: 1px 1px 3px #424242;
+}
+
+#myName
+{
+    margin: 0px 0px;
+    padding: 25px 25px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #CACACA;
+	font-size: 700%;
+	text-shadow: 3px 3px 5px #5E5E84;
+	text-align: center;
+}
+
+/*Navigation setup*/
+#navigation
+{
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 110%;
+}
+
+ul.menu
+{
+	list-style-type: none;
+	margin: 0 auto;
+    position: relative;
+    left: -20px;
+}
+
+li.menu
+{
+	display: inline;
+}
+
+a.menu
+{
+	text-decoration: none;
+	display: inline-block;
+    padding: 25px;
+    width: 135px;
+	color: white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+a.menu:hover, a.menu:active
+{
+ background-color: #463728;
+}
+
+/*Main homepage About Me section*/
+#aboutMe
+{
+	background-color: #FFFFFF;
+    border: 1px solid #888888;
+    border-radius: 15px;
+	padding: 10px 10px 10px 10px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+/*A highlight for section labels*/
+.sectionLabel
+{
+	background-color: #E0E0E0;
+	font-size: 125%;
+	text-shadow: 2px 2px 2px #FCFCFC;
+	padding-left: 5px;
+}
+
+.subsectionLabel
+{
+    font-size: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-shadow: 1px 1px 3px white;
+    text-align: center;
+    color: #919091;
+}
+
+
+
+/*
+*
+* Class Examples and Projects page styles
+*
+*/
+
+/*Container for three-column div layout*/
+#itemPanel
+{
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-alight: center;
+}
+
+/*Left column styles*/
+#column-left
+{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+/*Middle column styles*/
+#column-middle
+{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+/*Right column styles*/
+#column-right
+{
+    float: right;
+    width: 33%;
+    text-align: center;
+}
+
+/*Styles for the item block containing links to various pages*/
+.itemBlock
+{
+    width: 90%;
+    height: 100px;
+    background-color: #CACACA;
+    border: 1px solid #CC0000;
+    border-radius: 5px;
+    margin: 10px 10px;
+}
+
+/*Styles for the View buttons in the item blocks*/
+a.examplesAnchor
+{
+    text-decoration: none;   
+}
+
+button.examplesButton
+{
+    height: 40px;
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
