@@ -6,9 +6,9 @@ scrapes the course information from can be a bit slow.
 
 ##Users
 1. Admin User
-	Username: Globe
-	Password: GreatPass
+* Username: Globe
+* Password: GreatPass
 
 2. Applicant User
-	Username: Roddy
-	Password: Lemur
+* Username: Roddy
+* Password: Lemur
